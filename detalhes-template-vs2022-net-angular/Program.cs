@@ -1,3 +1,9 @@
+/*
+Detalhes de configuração:
+
+https://stackoverflow.com/questions/69722872/asp-net-core-6-how-to-access-configuration-during-startup
+*/
+
 using detalhes_template_vs2022_net_angular.Data;
 using detalhes_template_vs2022_net_angular.Models;
 using Microsoft.AspNetCore.Authentication;
