@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>TodoModule.Application</AssemblyName>
+    <RootNamespace>TodoModule</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TodoModule.Core\TodoModule.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.EntityFrameworkCore" Version="4.9.0" />
+    <PackageReference Include="Abp.AutoMapper" Version="4.9.0" />
+  </ItemGroup>
+
+</Project>

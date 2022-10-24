@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>ModularTodoApp.Application</AssemblyName>
+    <RootNamespace>ModularTodoApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModularTodoApp.Core\ModularTodoApp.Core.csproj" />
+  </ItemGroup>
+
+</Project>

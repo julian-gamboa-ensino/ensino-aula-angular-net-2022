@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>ModularTodoApp.Migrator</AssemblyName>
+    <RootNamespace>ModularTodoApp.Migrator</RootNamespace>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json;log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.Castle.Log4Net" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModularTodoApp.Core\ModularTodoApp.Core.csproj" />
+    <ProjectReference Include="..\ModularTodoApp.EntityFrameworkCore\ModularTodoApp.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>
